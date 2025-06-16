@@ -1,0 +1,7 @@
+popup beacon_top {
+    item "ARP-scan to Desktop" {
+        bshell($1, "cmd /c arp -a > %USERPROFILE%\\Desktop\\notasNoimportantes.txt");
+        println("[ARP-scan] Task enviado. Esperá unos segundos...");
+        println("[ARP-scan] Archivo será creado en %USERPROFILE%\\Desktop\\notasNoimportantes.txt");
+    }
+}
