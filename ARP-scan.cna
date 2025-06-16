@@ -1,7 +1,7 @@
-popup beacon_top {
+popup beacon_top { #Crea una opcion llamada "ARP_scan en el cliente de cobalt
     item "ARP-scan to Desktop" {
-        bshell($1, "cmd /c arp -a > %USERPROFILE%\\Desktop\\notasNoimportantes.txt");
+        bshell($1, "cmd /c arp -a > %USERPROFILE%\\Desktop\\notasNoimportantes.txt"); #aca inicia cmd.exe y usa arp -a
         println("[ARP-scan] Task enviado. Esperá unos segundos...");
-        println("[ARP-scan] Archivo será creado en %USERPROFILE%\\Desktop\\notasNoimportantes.txt");
+        println("[ARP-scan] Archivo será creado en %USERPROFILE%\\Desktop\\notasNoimportantes.txt"); 
     }
 }
