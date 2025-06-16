@@ -5,3 +5,4 @@ Aggressor Script es el lenguaje integrado en Cobalt Strike, versión 3.0, y más
 
 No me hago responsable del mal uso de estos scripts.
 
+![image](https://github.com/user-attachments/assets/13f163dc-09dd-403e-8b65-1a8955c57957)
